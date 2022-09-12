@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Game from './components/tictactoe/Game';
+// import Toggle from './components/Toggle';
+// import YoutubeList from './components/youtube/YoutubeList';
 function App() {
+
+  // let name = "anh"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <YoutubeList>{name}</YoutubeList>
+    // <Toggle></Toggle>
+    <Game></Game>
   );
 }
+
 
 export default App;
